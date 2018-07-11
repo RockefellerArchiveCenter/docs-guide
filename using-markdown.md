@@ -3,6 +3,8 @@ layout: docs
 title: "RAC Documentation Site Guide | Using Markdown"
 ---
 
+## Markdown Basics
+
 Markdown is a lightweight Markup language. A Markup language is an annotation system for text that makes that text machine-readable (eg. XML and HTML). Markdown is designed to be easy to read, write, and edit using a limited set of punctuation characters to annotate the text. It is a plain text format; it does not specify color, font, or other style elements. The docs.rockarch.org documentation platform requires that documentation be created in or converted to Markdown. This contributes to documentation portability, intentional and consistent formatting for web content, and easily converts to HTML and other formats.
 
 ## Learn Markdown: Guides and Resources
