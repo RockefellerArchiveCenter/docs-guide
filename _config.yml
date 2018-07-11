@@ -9,5 +9,6 @@ title: "Documentation Site Guide to Managing Content"
 description: "A guide to adding and managing content in docs.rockarch.org."
 pages:
   - ["About", "index"]
-  - ["Add and Edit Content", "add-content.md"]
-  - ["Using Github", "using-github.md"]
+  - ["Add and Edit Content", "add-content"]
+  - ["Using Markdown", using-markdown"]
+  - ["Using Github", "using-github"]
