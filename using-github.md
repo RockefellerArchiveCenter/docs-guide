@@ -43,6 +43,6 @@ To work with GitHub:
 
 4. Choose to make the repo public or private based on its pre-approved designation (see the* Rockefeller Archive Center Documentation Site Content Approval Policy*). The designation must be approved by the RAC Assistant Director for the relevant function area, and documentation that is made publicly available must also be approved by the Director of Archives.
 
-5. Add a README file as specified above (See [GitHub README](#github-readme)).
+5. Add a README file as specified in this documentation (See [GitHub README](add-content#github-readme)).
 
-6. Add a License as specified above (See [Licensing] (#licensing)).
+6. Add a License as specified in this documentation (See [license information](add-content#LICENSE.md)).

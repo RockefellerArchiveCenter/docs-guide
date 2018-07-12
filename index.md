@@ -5,9 +5,7 @@ title: "Rockefeller Archive Center Documentation Site Guide to Managing Content"
 
 ## Purpose
 
-This is a guide to migrating documentation to docs.rockarch.org, including adding to a RAC GitHub repository, conversion of content to the Markdown format, and editing in Markdown. For the policy that defines the approval process by which documentation is selected, designated as internal or external, added to docs.rockarch.org, and revised, refer to the *Rockefeller Archive Center Documentation Site Content Approval Policy.*
-
-Rockefeller Archive Center (RAC) documentation consists of the policies, workflows, processes, manuals, plans, and standard forms that are integral to the operations of the RAC and are intended for long-term use. In order for RAC staff to control, use, and share this documentation, the RAC maintains a central platform at docs.rockarch.org. All documentation on the platform is available to RAC staff and select documentation can also be made available to external users. This facilitates transparency and version control of our institutional processes and provides an opportunity to share archival documentation with the greater archival community and other interested users.
+This is a guide to migrating documentation to docs.rockarch.org, including adding to a RAC GitHub repository, conversion of content to the Markdown format, and editing in Markdown. For the policy that defines the approval process by which documentation is selected, designated as internal or external, and added to docs.rockarch.org, refer to the *Rockefeller Archive Center Documentation Site Content Approval Policy.*
 
 ## Platform Structural Overview
 

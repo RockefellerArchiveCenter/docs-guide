@@ -7,7 +7,7 @@ title: "RAC Documentation Site Guide | Add and Edit Content"
 
 Prior to adding or editing content, all additions and changes must be approved as specified in the *Rockefeller Archive Center Documentation Site Content Approval Policy*. All public content must be approved by the Director of Archives and President.
 
-1. Create a new RAC GitHub repository for the documentation if one does not exist. Contact a RAC employee with administrative access to the RAC GitHub to enable this action. See [Create a Repo](#create-a-repo).
+1. Create a new RAC GitHub repository for the documentation if one does not exist. Contact a RAC employee with administrative access to the RAC GitHub to enable this action. See [Create a Repo](using-github#create-a-repo).
 
 2. Create a branch called `development` in the target repository.
 
@@ -33,7 +33,7 @@ Prior to adding or editing content, all additions and changes must be approved a
 
 ### Index.md
 
-Documentation will be created in or converted to the Markdown format (see [Using Markdown](#using-markdown)) to be leveraged by Jekyll to build the website. Add simple documentation like a short policy or one-page informational sheet to the GitHub repository as a single Markdown file (named `index.md`).
+Documentation will be created in or converted to the Markdown format (see [Using Markdown](using-markdown)) to be leveraged by Jekyll to build the website. Add simple documentation like a short policy or one-page informational sheet to the GitHub repository as a single Markdown file (named `index.md`).
 
 #### Page Title and Layout
 
@@ -69,13 +69,11 @@ To add a license after the repo is created:
 
 2. Choose "Create new file"
 
-3. Name the file "LICENSE.md."
+3. Name the file `LICENSE.md.`
 
-4. Ignore the "Choose a license template" button at the right.
+4. Copy the Markdown formatted text of the[ CC0 1.0 Universal License](https://github.com/idleberg/Creative-Commons-Markdown/edit/master/4.0/zero.markdown) into the new file.
 
-5. Copy the Markdown formatted text of the[ CC0 1.0 Universal License](https://github.com/idleberg/Creative-Commons-Markdown/edit/master/4.0/zero.markdown) into the new file.
-
-6. Commit the new file.
+5. Commit the new file.
 
 ###  \_config.yml
 
@@ -83,7 +81,7 @@ Create a file called `_config.yml`. See the[ docs-build README](https://github.c
 
 ## Optional Elements for Longer Documentation
 
-* Documentation files (in addition to index.md)
+* Documentation files (in addition to `index.md`)
 
 * Description. 1-2 sentences summarizing what the documentation is and any additional contextual information on `index.md`.
 
@@ -91,7 +89,7 @@ Create a file called `_config.yml`. See the[ docs-build README](https://github.c
 
 More complicated documentation might be more appropriately split into multiple files, which will translate into a corresponding number of web pages. In deciding how to divide the documentation, structure and present the content in a way that enhances navigation and use.
 
-For example, in addition to an index.md file, the[ ](http://docs.rockarch.org/processing_manual/)*Rockefeller Archive Center Guide to Processing Collections* includes two other Markdown files that represent as two different pages on docs.rockarch.org: Planning and Processing. All files should be in the root directory (no subfolders). The exception is if there are images, which should be in a subfolder titled `img`.
+For example, in addition to an index.md file, the [Rockefeller Archive Center Guide to Processing Collections ](http://docs.rockarch.org/processing_manual/) includes two other Markdown files that represent as two different pages on docs.rockarch.org: Planning and Processing. All files should be in the root directory (no subfolders). The exception is if there are images, which should be in a subfolder titled `img`.
 
 Filenames should be short with no special characters or spaces. Use a hyphen between words instead of spaces. The filename will be part of the url of the site, so simple and concise are best.
 
