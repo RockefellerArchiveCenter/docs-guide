@@ -54,11 +54,11 @@ The title of the page is Header 1. Note that Header 2s (##) in Markdown appear a
 
 Any institution or other’s work that we relied on in drafting our own documentation should be credited on the `index.md` page.
 
-### README
+### Readme
 
 Every GitHub repository requires a `README.md` file that includes information about what is in the repo, how to access and use the content, and defines documentation authorship. The README should be formatted in Markdown and include a link to docs.rockarch.org.
 
-### LICENSE
+### License
 
 All RAC documentation that is shared publicly on this platform will be made available under a[ Creative Commons Zero](https://creativecommons.org/publicdomain/zero/1.0/) (CC0) public domain dedication, and all project-associated code is made available on the RAC organizational GitHub under an[ MIT License](https://opensource.org/licenses/MIT). For public content, choose a CC0 License for the GitHub repository. Do not select a license for private content.
 
