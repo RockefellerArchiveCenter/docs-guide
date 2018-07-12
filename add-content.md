@@ -77,7 +77,11 @@ To add a license after the repo is created:
 
 ###  \_config.yml
 
-Create a file called `_config.yml`. See the[ docs-build README](https://github.com/RockefellerArchiveCenter/docs-build/blob/master/README.md#repository-configuration) for the specific variables required in `_config.yml`. This configuration file provides information to determine whether the documentation in the repo is designated as public or private, the title and description, associated tags, and pages information that is used to create the side navigation table of contents for each set of documentation. The title in the config file should be the name of the document WITHOUT "Rockefeller Archive Center", for example "Collection Policy" or "Guide to Processing Collections".
+Create a file called `_config.yml`. See the[ docs-build README](https://github.com/RockefellerArchiveCenter/docs-build/blob/master/README.md#repository-configuration) for the specific variables required in `_config.yml`. This configuration file provides information to determine whether the documentation in the repo is designated as public or private, the title and description, associated tags, and pages information that is used to create the side navigation table of contents for each set of documentation. 
+
+* The title in the config file should be the name of the document WITHOUT "Rockefeller Archive Center", for example "Collection Policy" or "Guide to Processing Collections".
+
+* Designate the documentation as private using `public: false` until it has been approved for public access by the Director of Archives and Assistant Director
 
 ## Optional Elements for Longer Documentation
 
