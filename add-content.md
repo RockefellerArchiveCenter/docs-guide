@@ -54,11 +54,11 @@ The title of the page is Header 1. Note that Header 2s (##) in Markdown appear a
 
 Any institution or other’s work that we relied on in drafting our own documentation should be credited on the `index.md` page.
 
-### README.md
+### README
 
 Every GitHub repository requires a `README.md` file that includes information about what is in the repo, how to access and use the content, and defines documentation authorship. The README should be formatted in Markdown and include a link to docs.rockarch.org.
 
-### LICENSE.md
+### LICENSE
 
 All RAC documentation that is shared publicly on this platform will be made available under a[ Creative Commons Zero](https://creativecommons.org/publicdomain/zero/1.0/) (CC0) public domain dedication, and all project-associated code is made available on the RAC organizational GitHub under an[ MIT License](https://opensource.org/licenses/MIT). For public content, choose a CC0 License for the GitHub repository. Do not select a license for private content.
 
@@ -77,11 +77,7 @@ To add a license after the repo is created:
 
 ###  \_config.yml
 
-Create a file called `_config.yml`. See the[ docs-build README](https://github.com/RockefellerArchiveCenter/docs-build/blob/master/README.md#repository-configuration) for the specific variables required in `_config.yml`. This configuration file provides information to determine whether the documentation in the repo is designated as public or private, the title and description, associated tags, and pages information that is used to create the side navigation table of contents for each set of documentation. 
-
-* The title in the config file should be the name of the document WITHOUT "Rockefeller Archive Center", for example "Collection Policy" or "Guide to Processing Collections".
-
-* Designate the documentation as private using `public: false` until it has been approved for public access by the Director of Archives and Assistant Director
+Create a file called `_config.yml`. See the[ docs-build README](https://github.com/RockefellerArchiveCenter/docs-build/blob/master/README.md#repository-configuration) for the specific variables required in `_config.yml`. This configuration file provides information to determine whether the documentation in the repo is designated as public or private, the title and description, associated tags, and pages information that is used to create the side navigation table of contents for each set of documentation. The title in the config file should be the name of the document WITHOUT "Rockefeller Archive Center", for example "Collection Policy" or "Guide to Processing Collections".
 
 ## Optional Elements for Longer Documentation
 
