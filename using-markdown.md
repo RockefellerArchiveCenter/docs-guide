@@ -17,7 +17,6 @@ Markdown is a lightweight Markup language. A Markup language is an annotation sy
 ## Convert and Edit Files
 
 Tools that will convert files from DOCX to Markdown, or between Markdown and other formats:
-
 1. [Dillinger](https://dillinger.io/). An in-browser converter that displays Markdown in the left window and HTML on the right.
 2. [Devotter](https://devotter.com/converter). An in-browser converter that allows users to upload files and convert documents between multiple formats.
 3. [Markdown Converter](https://tools.libraries.ou.edu/markdown) from the University of Oklahoma Libraries.  In-browser tool to convert from Markdown to DOCX, PDF, EPUB, HTML.
