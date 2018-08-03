@@ -10,11 +10,8 @@ Markdown is a lightweight Markup language. A Markup language is an annotation sy
 ## Learn Markdown: Guides and Resources
 
 1. [Mastering Markdown GitHub Guide](https://guides.github.com/features/mastering-markdown/). Quick reference for Markdown basics.
-
 2. [Ghost Blogpost](https://blog.ghost.org/markdown/). How to Write Faster, Better & Longer: The Ultimate Guide to Markdown
-
 3. [CommonMark specification](http://commonmark.org/help/) with quick guide and tutorial.
-
 4. [Markdown tutorial](https://www.markdowntutorial.com/) from Garen Torikian.
 
 ## Convert and Edit Files
@@ -22,14 +19,10 @@ Markdown is a lightweight Markup language. A Markup language is an annotation sy
 Tools that will convert files from DOCX to Markdown, or between Markdown and other formats:
 
 1. [Dillinger](https://dillinger.io/). An in-browser converter that displays Markdown in the left window and HTML on the right.
-
 2. [Devotter](https://devotter.com/converter). An in-browser converter that allows users to upload files and convert documents between multiple formats.
-
-1. [Markdown Converter](https://tools.libraries.ou.edu/markdown) from the University of Oklahoma Libraries.  In-browser tool to convert from Markdown to DOCX, PDF, EPUB, HTML.
-
-2. [Pandoc](https://pandoc.org/). A command-line document converter.
-
-3. [Writage](http://www.writage.com/). A Microsoft Word plugin that allows DOCX files to be saved as Markdown. Download the plugin, open the document in Microsoft Word, Save As, and choose Markdown from the Save As Type dropdown menu.
+3. [Markdown Converter](https://tools.libraries.ou.edu/markdown) from the University of Oklahoma Libraries.  In-browser tool to convert from Markdown to DOCX, PDF, EPUB, HTML.
+4. [Pandoc](https://pandoc.org/). A command-line document converter.
+5. [Writage](http://www.writage.com/). A Microsoft Word plugin that allows DOCX files to be saved as Markdown. Download the plugin, open the document in Microsoft Word, Save As, and choose Markdown from the Save As Type dropdown menu.
 
 ## Edit Markdown Files in a Text Editor
 
