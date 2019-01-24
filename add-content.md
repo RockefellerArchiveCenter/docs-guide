@@ -10,10 +10,10 @@ Prior to adding or editing content, all additions and changes must be approved a
 1. Create a new RAC GitHub repository for the documentation if one does not exist. Contact a RAC employee with administrative access to the RAC GitHub to enable this action. See [Create a Repo](using-github#create-a-repo).
 2. Create a branch called `development` in the target repository.
 3. Commit new content or changes to the `development` branch.
-4. Review the changes on the RAC development server at docs.dev.rockarch.org, which will pull in new content from the `development` branch every few minutes. When a repository is first created, it has to be manually added to the development server. See the [Documentation Site Info Sheet](http://docs.dev.rockarch.org/info-sheets/documentation-site-info-sheet).
+4. Review the changes on the RAC development server at docs.dev.rockarch.org, which will pull in new content from the `development` branch every few minutes. When a repository is first created, it has to be manually added to the development server. See the [Documentation Site Info Sheet](http://docs.rockarch.org/systems-info-sheets/documentation-site-info-sheet).
 5. Submit a pull request to merge `development` to the `master` branch of the GitHub repo.
 6. As per the *Content Approval Policy*, each pull request will be reviewed by the relevant Assistant Director and the Director of Archives, as necessary. If a determination is made to either convert documentation from public to private, or to remove it completely, the Assistant Director for Digital Programs or any other RAC employee with administrative access to the RAC GitHub account should be notified to enable this action.
-7. Once a pull request is reviewed and approved, merge the branch into the `master` branch where it will be incorporated into docs.rockarch.org. See the [Documentation Site Info Sheet](http://docs.dev.rockarch.org/info-sheets/documentation-site-info-sheet) for directions on adding the master branch to the production server.
+7. Once a pull request is reviewed and approved, merge the branch into the `master` branch where it will be incorporated into docs.rockarch.org. See the [Documentation Site Info Sheet](http://docs.rockarch.org/systems-info-sheets/documentation-site-info-sheet) for directions on adding the master branch to the production server.
 
 ## Required Elements
 
