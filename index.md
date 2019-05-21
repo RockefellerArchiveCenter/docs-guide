@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "Rockefeller Archive Center Documentation Site Guide to Managing Content"
+title: "Documentation Site Guide to Managing Content"
 ---
 
 ## Purpose
