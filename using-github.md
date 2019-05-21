@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "RAC Documentation Site Guide | Using GitHub"
+title: "Documentation Site Guide | Using GitHub"
 ---
 
 ## Using GitHub
