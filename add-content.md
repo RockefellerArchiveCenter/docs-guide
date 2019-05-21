@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "RAC Documentation Site Guide | Add and Edit Content"
+title: "Documentation Site Guide | Add and Edit Content"
 ---
 
 ## Add and Edit Content
