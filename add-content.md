@@ -5,9 +5,9 @@ title: "Documentation Site Guide | Add and Edit Content"
 
 ## Add and Edit Content
 
-Prior to adding or editing content, all additions and changes must be approved as specified in the *Rockefeller Archive Center Documentation Site Content Approval Policy*. All public content must be approved by the Director of Archives and President.
+Prior to adding or editing content, all additions and changes must be approved as specified in the [Rockefeller Archive Center Documentation Site Content Approval Policy](https://docs.rockarch.org/docs-policy/). All public content must be approved by the Director of Archives and President.
 
-1. Create a new RAC GitHub repository for the documentation if one does not exist. Contact a RAC employee with administrative access to the RAC GitHub to enable this action. See [Create a Repo](using-github#create-a-repo).
+1. Create a new RAC GitHub repository for the documentation if one does not exist. Contact a RAC employee with administrative access to the RAC GitHub to enable this action. See [Create a Repo](/docs-guide/using-github#create-a-repo).
 2. Create a branch called `development` in the target repository.
 3. Commit new content or changes to the `development` branch.
 4. Review the changes on the RAC development server at docs.dev.rockarch.org, which will pull in new content from the `development` branch every few minutes. When a repository is first created, it has to be manually added to the development server. See the [Documentation Site Info Sheet](http://docs.rockarch.org/systems-info-sheets/documentation-site-info-sheet).
@@ -24,7 +24,7 @@ Prior to adding or editing content, all additions and changes must be approved a
 
 ### Index.md
 
-Documentation will be created in or converted to the Markdown format (see [Using Markdown](using-markdown)) to be leveraged by Jekyll to build the website. Add simple documentation like a short policy or one-page informational sheet to the GitHub repository as a single Markdown file (named `index.md`).
+Documentation will be created in or converted to the Markdown format (see [Using Markdown](/docs-guide/using-markdown)) to be leveraged by Jekyll to build the website. Add simple documentation like a short policy or one-page informational sheet to the GitHub repository as a single Markdown file (named `index.md`).
 
 #### Page Title and Layout
 
@@ -51,7 +51,7 @@ Every GitHub repository requires a `README.md` file that includes information ab
 
 ### License
 
-All RAC documentation that is shared publicly on this platform will be made available under a[ Creative Commons Zero](https://creativecommons.org/publicdomain/zero/1.0/) (CC0) public domain dedication, and all project-associated code is made available on the RAC organizational GitHub under an[ MIT License](https://opensource.org/licenses/MIT). For public content, choose a CC0 License for the GitHub repository. Do not select a license for private content.
+All RAC documentation that is shared publicly on this platform will be made available under a [Creative Commons Zero](https://creativecommons.org/publicdomain/zero/1.0/) (CC0) public domain dedication, and all project-associated code is made available on the RAC organizational GitHub under an [MIT License](https://opensource.org/licenses/MIT). For public content, choose a CC0 License for the GitHub repository. Do not select a license for private content.
 
 
 To add a license after the repo is created:
