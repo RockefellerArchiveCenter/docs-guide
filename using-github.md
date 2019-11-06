@@ -33,5 +33,5 @@ To work with GitHub:
 2. Format the name using lowercase letters and dashes between words "short-name" (e.g. processing-manual).
 3. Add a short description of the documentation.
 4. Choose to make the repo public or private based on its pre-approved designation (see the* Rockefeller Archive Center Documentation Site Content Approval Policy*). The designation must be approved by the RAC Assistant Director for the relevant function area, and documentation that is made publicly available must also be approved by the Director of Archives.
-5. Add a README file as specified in [this documentation](add-content#readme).
-6. Add a License as specified in [this documentation](add-content#license).
+5. [Add a README file](/docs-guide/add-content#readme) as specified in thi documentation.
+6. [Add a License](/docs-guide/add-content#license) as specified in this documentation.
