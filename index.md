@@ -5,7 +5,7 @@ title: "Documentation Site Guide to Managing Content"
 
 ## Purpose
 
-This is a guide to migrating documentation to docs.rockarch.org, including adding to a RAC GitHub repository, conversion of content to the Markdown format, and editing in Markdown. For the policy that defines the approval process by which documentation is selected, designated as internal or external, and added to docs.rockarch.org, refer to the *Rockefeller Archive Center Documentation Site Content Approval Policy.*
+This is a guide to migrating documentation to docs.rockarch.org, including adding to a RAC GitHub repository, conversion of content to the Markdown format, and editing in Markdown. For the policy that defines the approval process by which documentation is selected, designated as internal or external, and added to docs.rockarch.org, refer to the [Rockefeller Archive Center Documentation Site Content Approval Policy](https://docs.rockarch.org/docs-policy/).
 
 ## Platform Structural Overview
 
