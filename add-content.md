@@ -28,14 +28,14 @@ Documentation will be created in or converted to the Markdown format (see [Using
 
 #### Page Title and Layout
 
-At the beginning of each Markdown file that is part of the documentation, include a title and the type of layout. The title should start with "Rockefeller Archive Center". This is the title that will be displayed as the title of the webpage.
+At the beginning of each Markdown file that is part of the documentation, include a title and the type of layout. This is the title that will be displayed as the title of the webpage.
 
 
 `---`
 
 `layout: docs`
 
-`title:  "Rockefeller Archive Center Guide to Processing Collections"`
+`title:  "Guide to Processing Collections"`
 
 `---`
 
@@ -59,14 +59,14 @@ To add a license after the repo is created:
 1. Navigate to the repository page on GitHub
 2. Choose "Create new file"
 3. Name the file `LICENSE.md.`
-4. Copy the Markdown formatted text of the[ CC0 1.0 Universal License](https://github.com/idleberg/Creative-Commons-Markdown/edit/master/4.0/zero.markdown) into the new file.
+4. Copy the Markdown formatted text of the [CC0 1.0 Universal License](https://github.com/idleberg/Creative-Commons-Markdown/edit/master/4.0/zero.markdown) into the new file.
 5. Commit the new file.
 
 ###  \_config.yml
 
-Create a file called `_config.yml`. See the[ docs-build README](https://github.com/RockefellerArchiveCenter/docs-build/blob/master/README.md#repository-configuration) for the specific variables required in `_config.yml`. This configuration file provides information to determine whether the documentation in the repo is designated as public or private, the title and description, associated tags, and pages information that is used to create the side navigation table of contents for each set of documentation.
+Create a file called `_config.yml`. See the [docs-build README](https://github.com/RockefellerArchiveCenter/docs-build/blob/master/README.md#repository-configuration) for the specific variables required in `_config.yml`. This configuration file provides information to determine whether the documentation in the repo is designated as public or private, the title and description, associated tags, and pages information that is used to create the side navigation table of contents for each set of documentation.
 
-* The title in the config file should be the name of the document WITHOUT “Rockefeller Archive Center”, for example “Collection Policy” or “Guide to Processing Collections”.
+* The title in the config file should match the title in `index.md`, for example “Collection Policy” or “Guide to Processing Collections”.
 * Designate the documentation as private using `public: false` until it has been approved for public access by the Director of Archives and President.
 
 ## Optional Elements for Longer Documentation
@@ -88,7 +88,7 @@ Add links between documents and sections using the format:
 
 `This is a link to [another section](#header-name) in the same document`
 
-`This is a link to [another file](file-name) in the same repository`
+`This is a link to [another file](/repo-name/file-name) in the same repository`
 
 ## Additional Formatting
 
