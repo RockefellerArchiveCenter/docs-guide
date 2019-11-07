@@ -94,6 +94,8 @@ Add links between documents and sections using the format:
 
 The [docs-build](https://github.com/RockefellerArchiveCenter/docs-build) repo contains the CSS stylesheets for docs.rockarch.org. However, it is possible to add HTML and CSS markup directly into a Markdown file.
 
-To style text as an example that will be set apart from the other text, assign the block of text a <div> tag and css class "docs-example." As specified in our custom CSS for the site, this will change the font and center the text.
+To style text as an example that will be set apart from the other text, assign the block of text a <div> tag and css class "docs-example." As specified in our custom CSS for the site, this will change the style to set the text apart.
 
 `<div class="docs-example"><p> This is some example text </p> </div>`
+
+<div class="docs-example"><p> This is some example text </p> </div>
