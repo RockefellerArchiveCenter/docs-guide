@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "RAC Documentation Site Guide | Using Markdown"
+title: "Documentation Site Guide | Using Markdown"
 ---
 
 ## Markdown Basics

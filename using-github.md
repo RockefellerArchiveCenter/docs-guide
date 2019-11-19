@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "RAC Documentation Site Guide | Using GitHub"
+title: "Documentation Site Guide | Using GitHub"
 ---
 
 ## Using GitHub
@@ -18,8 +18,8 @@ To add and manage files in a GitHub repository, become familiar with the princip
 ## Get Started with GitHub
 
 To work with GitHub:
-1. Create or have an existing GitHub account. Sign up[ here](https://github.com/).
-2. Send the username to a member of the Digital Programs Team to add the new user as a member to the[ RAC GitHub](https://github.com/RockefellerArchiveCenter) Organization.
+1. Create or have an existing GitHub account. [Sign up for GitHub](https://github.com/).
+2. Send the username to a member of the Digital Programs Team to add the new user as a member to the [RAC GitHub](https://github.com/RockefellerArchiveCenter) Organization.
 3. Work with GitHub in one of three ways: directly in the browser, locally using GitHub Desktop, or from the command line:
   * [Guide to using GitHub in the browser](https://pixelpioneers.co/blog/2017/using-github-without-the-command-line)
   * [Install GitHub Desktop](https://help.github.com/desktop/guides/getting-started-with-github-desktop/installing-github-desktop/) to work with GitHub from a user interface on a computer desktop.
@@ -33,5 +33,5 @@ To work with GitHub:
 2. Format the name using lowercase letters and dashes between words "short-name" (e.g. processing-manual).
 3. Add a short description of the documentation.
 4. Choose to make the repo public or private based on its pre-approved designation (see the* Rockefeller Archive Center Documentation Site Content Approval Policy*). The designation must be approved by the RAC Assistant Director for the relevant function area, and documentation that is made publicly available must also be approved by the Director of Archives.
-5. Add a README file as specified in [this documentation](add-content#readme).
-6. Add a License as specified in [this documentation](add-content#license).
+5. [Add a README file](/docs-guide/add-content#readme) as specified in thi documentation.
+6. [Add a License](/docs-guide/add-content#license) as specified in this documentation.
