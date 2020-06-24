@@ -15,6 +15,8 @@ To add and manage files in a GitHub repository, become familiar with the princip
 
 [Learn Git](https://www.codecademy.com/learn/learn-git). Code Academy course to learn the basics of the Git workflow
 
+[A Beginner’s Guide to Git — How to Write a Good Commit Message](https://www.freecodecamp.org/news/a-beginners-guide-to-git-how-to-write-a-good-commit-message/). Short post on the basics of writing meaningful commit messages.
+
 ## Get Started with GitHub
 
 To work with GitHub:
