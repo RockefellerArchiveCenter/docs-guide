@@ -62,11 +62,6 @@ Create a file called `_config.yml`. This configuration file includes whether the
 * The title in the config file should match the title in `index.md`, for example “Collection Policy” or “Guide to Processing Collections”.
 * Designate the documentation as private using `public: false` until it has been approved for public access by the Director of Archives and President.
 
-## Optional Elements for Longer Documentation
-
-* Documentation files (in addition to `index.md`).
-* Description. 1-2 sentences summarizing what the documentation is and any additional contextual information on `index.md`.
-
 ### Multiple Documentation Files
 
 More complicated documentation might be more appropriately split into multiple files, which will translate into a corresponding number of web pages. In deciding how to divide the documentation, structure and present the content in a way that enhances navigation and use.
