@@ -12,7 +12,7 @@ Prior to adding or editing content, all additions and changes must be approved a
 3. Commit new content or changes to the `development` branch _using short, descriptive commit messages_.
 4. Review the changes on the RAC development server at docs.dev.rockarch.org. When a repository is first created, it has to be manually added to the development server. See the [Documentation Site Info Sheet](http://docs.rockarch.org/systems-info-sheets/documentation-site-info-sheet) or ask for help.
 5. Submit a pull request to merge `development` to the `base` branch of the GitHub repo.
-6. As per the [Content Approval Policy](https://docs.rockarch.org/docs-policy/), each pull request will be reviewed by the relevant Assistant Director and the Director of Archives, as necessary. If a determination is made to either convert documentation from public to private, or to remove it completely, the Assistant Director for Digital Programs or any other RAC employee with administrative access to the RAC GitHub account should be notified to enable this action.
+6. As per the [Content Approval Policy](https://docs.rockarch.org/docs-policy/), each pull request will be reviewed by the relevant Assistant Director and the Director of Archives, as necessary. If a determination is made to either convert documentation from public to private, or to remove it completely, the Assistant Director for Digital Strategies or any other RAC employee with administrative access to the RAC GitHub account should be notified to enable this action.
 7. Once a pull request is reviewed and approved, merge the branch into the `base` branch where it will be incorporated into docs.rockarch.org. See the [Documentation Site Info Sheet](http://docs.rockarch.org/systems-info-sheets/documentation-site-info-sheet) for directions on adding the base branch to the production server or ask for help.
 
 ## Required Files
@@ -57,7 +57,7 @@ The template repository already includes the CC0 License, but if the content is 
 
 ###  \_config.yml
 
-Create a file called `_config.yml`. This configuration file includes whether the documentation will be public or private, title and description, associated tags, and pages information that is used to create the side navigation table of contents for each set of documentation. For guidance and an example of how to fill this out, see the ["Documentation Repository Configuration"](https://github.com/RockefellerArchiveCenter/docs-build#documentation-repository-configuration) section of the docs-build README.
+Create a file called `_config.yml`. This configuration file includes whether the documentation will be public or private, title, associated tags, and pages information that is used to create the side navigation table of contents for each set of documentation. For guidance and an example of how to fill this out, see the ["Documentation Repository Configuration"](https://github.com/RockefellerArchiveCenter/docs-build#documentation-repository-configuration) section of the docs-build README.
 
 * The title in the config file should match the title in `index.md`, for example “Collection Policy” or “Guide to Processing Collections”.
 * Designate the documentation as private using `public: false` until it has been approved for public access by the Director of Archives and President.
