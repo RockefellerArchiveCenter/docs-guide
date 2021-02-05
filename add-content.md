@@ -9,7 +9,7 @@ Prior to adding or editing content, all additions and changes must be approved a
 
 1. Create a new RAC GitHub repository for the documentation if one does not exist using the [docs-template](https://github.com/RockefellerArchiveCenter/docs-template) repository template. Contact an RAC employee with administrative access to the RAC GitHub to enable this action. See [Create a Repo](/docs-guide/using-github#create-a-repo).
 2. Create a branch called `development` in the target repository.
-3. Commit new content or changes to the `development` branch _using short, descriptive commit messages_.
+3. Commit new content or changes to the `development` branch using short, descriptive commit messages that describe the changes like "add config values," "fix typo," or "change template text". Use this descriptive commit message instead of the default "update [file]" message provided in GitHub.
 4. Review the changes on the RAC development server at docs.dev.rockarch.org. When a repository is first created, it has to be manually added to the development server. See the [Documentation Site Info Sheet](http://docs.rockarch.org/systems-info-sheets/documentation-site-info-sheet) or ask for help.
 5. Submit a pull request to merge `development` to the `base` branch of the GitHub repo.
 6. As per the [Content Approval Policy](https://docs.rockarch.org/docs-policy/), each pull request will be reviewed by the relevant Assistant Director and the Director of Archives, as necessary. If a determination is made to either convert documentation from public to private, or to remove it completely, the Assistant Director for Digital Strategies or any other RAC employee with administrative access to the RAC GitHub account should be notified to enable this action.
