@@ -9,13 +9,13 @@ Prior to adding or editing content, all additions and changes must be approved a
 
 1. Create a new RAC GitHub repository for the documentation if one does not exist using the [docs-template](https://github.com/RockefellerArchiveCenter/docs-template) repository template. Contact an RAC employee with administrative access to the RAC GitHub to enable this action. See [Create a Repo](/docs-guide/using-github#create-a-repo).
 2. Create a branch called `development` in the target repository.
-3. Commit new content or changes to the `development` branch using short, descriptive commit messages.
+3. Commit new content or changes to the `development` branch using short, descriptive commit messages that describe the changes like "add config values," "fix typo," or "change template text". Use this descriptive commit message instead of the default "update [file]" message provided in GitHub.
 4. Review the changes on the RAC development server at docs.dev.rockarch.org. When a repository is first created, it has to be manually added to the development server. See the [Documentation Site Info Sheet](http://docs.rockarch.org/systems-info-sheets/documentation-site-info-sheet) or ask for help.
 5. Submit a pull request to merge `development` to the `base` branch of the GitHub repo.
-6. As per the *Content Approval Policy*, each pull request will be reviewed by the relevant Assistant Director and the Director of Archives, as necessary. If a determination is made to either convert documentation from public to private, or to remove it completely, the Assistant Director for Digital Programs or any other RAC employee with administrative access to the RAC GitHub account should be notified to enable this action.
-7. Once a pull request is reviewed and approved, merge the branch into the `base` branch where it will be incorporated into docs.rockarch.org. See the [Documentation Site Info Sheet](http://docs.rockarch.org/systems-info-sheets/documentation-site-info-sheet) for directions on adding the base branch to the production server.
+6. As per the [Content Approval Policy](https://docs.rockarch.org/docs-policy/), each pull request will be reviewed by the relevant Assistant Director and the Director of Archives, as necessary. If a determination is made to either convert documentation from public to private, or to remove it completely, the Assistant Director for Digital Strategies or any other RAC employee with administrative access to the RAC GitHub account should be notified to enable this action.
+7. Once a pull request is reviewed and approved, merge the branch into the `base` branch where it will be incorporated into docs.rockarch.org. See the [Documentation Site Info Sheet](http://docs.rockarch.org/systems-info-sheets/documentation-site-info-sheet) for directions on adding the base branch to the production server or ask for help.
 
-## Required Elements
+## Required Files
 
 * [ ] index.md
 * [ ] README.md
@@ -51,27 +51,22 @@ Every GitHub repository requires a `README.md` file that includes information ab
 
 ### License
 
-All RAC documentation that is shared publicly on this platform will be made available under a [Creative Commons Zero](https://creativecommons.org/publicdomain/zero/1.0/) (CC0) public domain dedication, and all project-associated code is made available on the RAC organizational GitHub under an [MIT License](https://opensource.org/licenses/MIT). For public content, choose a CC0 License for the GitHub repository. Do not select a license for private content.
+All RAC documentation that is shared publicly on this platform will be made available under a [Creative Commons Zero](https://creativecommons.org/publicdomain/zero/1.0/) (CC0) public domain dedication, and all project-associated code is made available on the RAC organizational GitHub under an [MIT License](https://opensource.org/licenses/MIT). For public content, choose a CC0 License for the GitHub repository. Do not include a license for private content.
 
 The template repository already includes the CC0 License, but if the content is private (for internal RAC staff use only), remove `LICENSE.md` and the reference to it in `README.md`.
 
 ###  \_config.yml
 
-Create a file called `_config.yml`. See the [docs-build README](https://github.com/RockefellerArchiveCenter/docs-build/blob/base/README.md#repository-configuration) for the specific variables required in `_config.yml`. This configuration file provides information to determine whether the documentation in the repo is designated as public or private, the title and description, associated tags, and pages information that is used to create the side navigation table of contents for each set of documentation.
+Create a file called `_config.yml`. This configuration file includes whether the documentation will be public or private, title, associated tags, and pages information that is used to create the side navigation table of contents for each set of documentation. For guidance and an example of how to fill this out, see the ["Documentation Repository Configuration"](https://github.com/RockefellerArchiveCenter/docs-build#documentation-repository-configuration) section of the docs-build README.
 
 * The title in the config file should match the title in `index.md`, for example “Collection Policy” or “Guide to Processing Collections”.
 * Designate the documentation as private using `public: false` until it has been approved for public access by the Director of Archives and President.
 
-## Optional Elements for Longer Documentation
-
-* Documentation files (in addition to `index.md`).
-* Description. 1-2 sentences summarizing what the documentation is and any additional contextual information on `index.md`.
-
-### Documentation Files
+### Multiple Documentation Files
 
 More complicated documentation might be more appropriately split into multiple files, which will translate into a corresponding number of web pages. In deciding how to divide the documentation, structure and present the content in a way that enhances navigation and use.
 
-For example, in addition to an index.md file, the [Rockefeller Archive Center Guide to Processing Collections ](http://docs.rockarch.org/processing_manual/) includes two other Markdown files that represent as two different pages on docs.rockarch.org: Planning and Processing. All files should be in the root directory (no subfolders). The exception is if there are images, which should be in a subfolder titled `img`.
+For example, in addition to an `index.md` file, the [Rockefeller Archive Center Guide to Processing Collections ](http://docs.rockarch.org/processing_manual/) includes two other Markdown files that represent two different pages on docs.rockarch.org: Planning and Processing. All files should be in the root directory (no subfolders). The exception is if there are images, which should be in a subfolder titled `img`.
 
 Filenames should be short with no special characters or spaces. Use a hyphen between words instead of spaces. The filename will be part of the url of the site, so simple and concise are best.
 
