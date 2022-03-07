@@ -98,7 +98,7 @@ Appears on the website as:
 
 Use backticks (`` ` ``) around the content to designate inline code in Markdown: `Example inline code`
 
-For multi-line codeblocks, use three backticks (`` ``` ``) before and after the codeblock. You can [specify the code language](https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers) after the first set of backticks to adjust the styles for that language. Example of an HTML code block:
+For multi-line codeblocks, use three backticks before and after the codeblock. You can [specify the code language](https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers) after the first set of backticks to adjust the styles for that language. Example of an HTML code block:
 
 ````markdown
 ```html
