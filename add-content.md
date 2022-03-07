@@ -30,14 +30,12 @@ Documentation will be created in or converted to the Markdown format (see [Using
 
 At the beginning of each Markdown file that is part of the documentation, include a title and the type of layout. This is the title that will be displayed as the title of the webpage.
 
-
-`---`
-
-`layout: docs`
-
-`title:  "Guide to Processing Collections"`
-
-`---`
+```
+---
+layout: docs
+title:  "Guide to Processing Collections"
+---
+```
 
 The title of the page is Header 1. Note that Header 2s (##) in Markdown appear as the side navigation display on the webpages.
 
@@ -78,12 +76,37 @@ Add links between documents and sections using the format:
 
 `This is a link to [another file](/repo-name/file-name) in the same repository`
 
-## Additional Formatting
+## Additional Styling
 
-The [docs-build](https://github.com/RockefellerArchiveCenter/docs-build) repo contains the CSS stylesheets for docs.rockarch.org. However, it is possible to add HTML and CSS markup directly into a Markdown file.
+### HTML in Markdown
 
-To style text as an example that will be set apart from the other text, assign the block of text a <div> tag and css class "docs-example." As specified in our custom CSS for the site, this will change the style to set the text apart.
+The [docs-build site code](https://github.com/RockefellerArchiveCenter/docs-build) contains stylesheets that specify the design of docs.rockarch.org. However, it is possible to add HTML and CSS markup directly into a Markdown file to adjust styles.
 
-`<div class="docs-example"><p> This is some example text </p> </div>`
+To style text as an example that will be set apart from the other text, assign the block of text a <div> tag and css class "docs-example." As specified in our custom CSS for the site, this will change the style to set the text apart:
 
-<div class="docs-example"><p> This is some example text </p> </div>
+```html
+<div class="docs-example">
+  <p> This is some example text </p>
+</div>
+```
+
+Appears on the website as:
+
+<div class="docs-example"><p>This is some example text</p></div>
+
+### Inline Code and Code Blocks
+
+Use backticks (`` ` ``) around the content to designate inline code in Markdown: `Example inline code`
+
+For multi-line codeblocks, use three backticks before and after the codeblock. You can [specify the code language](https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers) after the first set of backticks to adjust the styles for that language. Example of an HTML code block:
+
+````markdown
+```html
+<div class="col-sm-6 offset-sm-3">
+  <h2 class="text-center">Filter by category</h2>
+</div>
+```
+````
+
+
+
