@@ -10,10 +10,10 @@ Prior to adding or editing content, all additions and changes must be approved a
 1. Create a new RAC GitHub repository for the documentation if one does not exist using the [docs-template](https://github.com/RockefellerArchiveCenter/docs-template) repository template. Contact an RAC employee with administrative access to the RAC GitHub to enable this action. See [Create a Repo](/docs-guide/using-github#create-a-repo).
 2. Create a branch called `development` in the target repository.
 3. Commit new content or changes to the `development` branch using short, descriptive commit messages that describe the changes like "add config values," "fix typo," or "change template text". Use this descriptive commit message instead of the default "update [file]" message provided in GitHub.
-4. Review the changes on the [RAC development site](docs.dev.rockarch.org).
+4. Review the changes on the [RAC development site](https://docs-internal.dev.rockarch.org/).
 5. Submit a pull request to merge `development` to the `base` branch of the GitHub repo.
 6. As per the [Content Approval Policy](https://docs.rockarch.org/docs-policy/), each pull request will be reviewed by the relevant Assistant Director and the Director of Archives, as necessary. If a determination is made to either convert documentation from public to private, or to remove it completely, the Assistant Director for Digital Strategies or any other RAC employee with administrative access to the RAC GitHub account should be notified to enable this action.
-7. Once a pull request is reviewed and approved, merge the branch into the `base` branch where it will be incorporated into docs.rockarch.org.
+7. Once a pull request is reviewed and approved, merge the branch into the `base` branch where it will be incorporated into the site.
 
 ## Required Files
 
@@ -21,8 +21,9 @@ Prior to adding or editing content, all additions and changes must be approved a
 * [ ] README.md
 * [ ] LICENSE.md
 * [ ] \_config.yml
+* [ ] publish_sns.yml
 
-### Index.md
+### index.md
 
 Documentation will be created in or converted to the Markdown format (see [Using Markdown](/docs-guide/using-markdown)) to be leveraged by Jekyll to build the website. Add simple documentation like a short policy or one-page informational sheet to the GitHub repository as a single Markdown file (named `index.md`).
 
@@ -60,7 +61,10 @@ Create a file called `_config.yml`. This configuration file includes whether the
 * The title in the config file should match the title in `index.md`, for example “Collection Policy” or “Guide to Processing Collections”.
 * Designate the documentation as private using `public: false` until it has been approved for public access by the Director of Archives and President.
 
-### Multiple Documentation Files
+### publish_sns.yml
+In order to deliver update notifications to Amazon SNS (which will trigger a build of the site), a [GitHub Actions](https://github.com/RockefellerArchiveCenter/docs-build#github-action-configuration) file named `publish_sns.yml` needs to be created in the `.github/workflows/` directory. The template repository already includes this file.
+
+## Multiple Documentation Files
 
 More complicated documentation might be more appropriately split into multiple files, which will translate into a corresponding number of web pages. In deciding how to divide the documentation, structure and present the content in a way that enhances navigation and use.
 
