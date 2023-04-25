@@ -17,11 +17,11 @@ Prior to adding or editing content, all additions and changes must be approved a
 
 ## Required Files
 
-* index.md
-* README.md
-* LICENSE.md
-* \_config.yml
-* /.github/workflows/publish_sns.yml
+* `index.md`
+* `README.md`
+* `LICENSE.md`
+* `_config.yml`
+* `/.github/workflows/publish_sns.yml`
 
 ### index.md
 
