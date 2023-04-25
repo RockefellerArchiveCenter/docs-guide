@@ -21,7 +21,7 @@ Prior to adding or editing content, all additions and changes must be approved a
 * [ ] README.md
 * [ ] LICENSE.md
 * [ ] \_config.yml
-* [ ] publish_sns.yml
+* [ ] /.github/workflows/publish_sns.yml
 
 ### index.md
 
