@@ -5,7 +5,7 @@ title: "Documentation Site Guide | Add New Content"
 
 ## Add New Content to the Development Site
 
-To get started, create a new RAC GitHub repository for the documentation if one does not exist using the [docs-template](https://github.com/RockefellerArchiveCenter/docs-template) repository template.
+To get started, create a new RAC GitHub repository for the documentation using the [docs-template](https://github.com/RockefellerArchiveCenter/docs-template) repository template.
 See the [Create a Repo Instructions](https://help.github.com/articles/create-a-repo/) from GitHub.
 
 1. Choose a template: use `RockefellerArchiveCenter/docs-template`.
@@ -13,17 +13,18 @@ See the [Create a Repo Instructions](https://help.github.com/articles/create-a-r
 3. Format the name using lowercase letters and dashes between words "short-name" (e.g. processing-manual).
 4. Add a short description of the documentation.
 5. Choose to make the repo public or private based on its pre-approved designation (see the [Rockefeller Archive Center Documentation Site Content Approval Policy](http://docs.rockarch.org/docs-policy/)).
-6. Using the template will add all the [required files](#required-files) that can now be edited in the new repository as necessary.
-7. Create a branch called `development` in the target repository.
-8. Edit the template files and add any new content to the `development` branch using short, descriptive commit messages that describe the changes like "add config values," "fix typo," or "change template text". Use this descriptive commit message instead of the default "update [file]" message provided in GitHub.
-9.  When you are ready to preview the documentation on the [development site](https://docs-internal.dev.rockarch.org/), ask a member of the Docs Team to add the documentation to the [docs-build repositories.yml](https://github.com/RockefellerArchiveCenter/docs-build/blob/base/repositories.yml). If the documentation is not approved for the public site, it will be added only under the `private` list in the `repositories.yml` file. If it is approved to be public, it will be added under both the `private` and `public` list. Documentation should be added to the `repositories.yml` file as `RockefellerArchiveCenter/(name of the documentation)`.
+6. Using the template will add all the [required files](#required-files) to the repository.
+7. Create a branch called `development` in the new repository.
+8. Working in the `development` branch, edit the template files and add any new content. Use short, descriptive commit messages that describe the changes like "add config values," "fix typo," or "change template text". Use descriptive commit messages instead of the default "update [file]" message provided in GitHub.
+9. To preview the documentation on the [development site](https://docs-internal.dev.rockarch.org/), ask a member of the Docs Team to add the documentation to the [docs-build repositories.yml](https://github.com/RockefellerArchiveCenter/docs-build/blob/base/repositories.yml). If the documentation is not approved for the public site, it will be added only under the `private` list in the `repositories.yml` file. If it is approved to be public, it will be added under both the `private` and `public` list. Documentation should be added to the `repositories.yml` file as `RockefellerArchiveCenter/(name of the documentation)`.
+10. Preview the documentation on the [RAC development site](https://docs-internal.dev.rockarch.org/). A new commit to the `development` branch in GitHub will trigger the development site to update.
 
 ## Review and Add Content to the Production Site
-1. Preview the documentation on the [RAC development site](https://docs-internal.dev.rockarch.org/). A new commit to the `development` branch in GitHub will trigger the development site to update.
-2. To get content on the production site, submit a pull request to merge `development` to the `base` branch of the GitHub repo.
+
+2. To add content to the production site, submit a pull request to merge `development` to the `base` branch of the GitHub repo.
 3. For technical review of configurations or Markdown, request a member of the Docs Team to review the pull request.
 4.  As per the [Content Approval Policy](https://docs.rockarch.org/docs-policy/), the relevant Assistant Director and Program Director should review public documentation in the format they prefer.
-5.  Once a pull request is approved, merge the `development` branch into the `base` branch. The merge action will trigger the production site to add the new documentation to [docs.rockarch.org](https://docs.rockarch.org) for public access, or [docs-internal.rockarch.org](https://docs-internal.rockarch.org) for internal-only access.
+5.  Once the pull request is approved, merge the `development` branch into the `base` branch. The merge action will trigger the production site to add the new documentation to [docs.rockarch.org](https://docs.rockarch.org) for public access, or [docs-internal.rockarch.org](https://docs-internal.rockarch.org) for internal-only access.
 
 ## Required Files
 The template repository already includes these files, which can be edited as necessary for a particular set of documentation.
@@ -36,7 +37,7 @@ The template repository already includes these files, which can be edited as nec
 
 ### index.md
 
-Documentation will be created in or converted to the Markdown format (see [Using Markdown](/docs-guide/using-markdown)) to be leveraged by Jekyll to build the website. Add simple documentation like a short policy or one-page informational sheet to the GitHub repository as a single Markdown file (named `index.md`). For multi-page documentation, see the [Multiple Documentation Files](#multiple documentation-files) section below.
+Documentation will be created in or converted to the Markdown format (see [Using Markdown](/docs-guide/using-markdown)) to be leveraged by Jekyll to build the website. Add simple documentation like a short policy or one-page informational sheet to the GitHub repository as a single Markdown file (named `index.md`). For multi-page documentation, see the [Multiple Documentation Files](#multiple-documentation-files) section below.
 
 #### Page Title and Layout
 
@@ -67,13 +68,34 @@ The template repository already includes the CC0 License, but if the content is 
 
 ###  \_config.yml
 
-This configuration file includes:
-* Whether the documentation will be public or private. Designate this using `public: true` or `public: false`.
-* Documentation title. The title should match the title in `index.md`.
-* Associated tags
-* Pages information that is used to create the side navigation table of contents for each set of documentation.
+The template repository already includes this configuration file, which should be edited as specified for the site to build correctly. Example config:
 
-For guidance and an example of how to fill this out, see the ["Documentation Repository Configuration"](https://github.com/RockefellerArchiveCenter/docs-build#documentation-repository-configuration) section of the docs-build README.
+```
+public: true
+category: "collection development and management"
+tags:
+  - "policy"
+title: "Collection Policy"
+description: "The main collecting areas of the Rockefeller Archive Center."
+pages:
+  - ["Rockefeller Archive Center Collection Policy", "index"]
+```
+
+`public` indicates whether or not the documentation should be public. Values
+should be either `public: true` or `public: false`.
+
+`categories` indicate what archival life cycle category(s) applies to the documentation. Categories enable filtering of documentation items on the homepage. Values should be `"collection development and management"`, `"preservation"`, `"arrangement and description"`, and/or `"reference and outreach"`.
+
+`tags` are used to describe what type of documentation the item is. Values should be either `"policy"` or `"workflow"`.
+
+`title` is the official title of the documentation, which will be displayed on
+the home page of the site.
+
+`description` is a statement of what the documentation is. This text will become the description meta tag for the site, which is displayed in search-engine results, so keep it short and snappy.
+
+`pages` is a list of lists of the pages included in this site. The first value
+in each list is the name, and the second is the filename of the page (without the
+extension). These values are used when building tables of contents.
 
 ### publish_sns.yml
 In order to deliver update notifications to Amazon SNS (which will trigger a build of the site), a [GitHub Actions](https://github.com/RockefellerArchiveCenter/docs-build#github-action-configuration) file named `publish_sns.yml` needs to be created in the `.github/workflows/` directory. The template repository already includes this file.
