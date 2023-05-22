@@ -5,7 +5,7 @@ title: "Documentation Site Guide | Add and Edit Content"
 
 ## Add and Edit Content
 
-Prior to adding or editing content, all additions and changes must be approved as specified in the [Rockefeller Archive Center Documentation Site Content Approval Policy](https://docs.rockarch.org/docs-policy/). All public content must be approved by the Director of Archives and President.
+Prior to adding or editing content, all additions and changes must be approved as specified in the [Rockefeller Archive Center Documentation Site Content Approval Policy](https://docs.rockarch.org/docs-policy/). All public content must be approved by the program Director and President.
 
 1. Create a new RAC GitHub repository for the documentation if one does not exist using the [docs-template](https://github.com/RockefellerArchiveCenter/docs-template) repository template. Contact an RAC employee with administrative access to the RAC GitHub to enable this action. See [Create a Repo](/docs-guide/using-github#create-a-repo).
 2. Create a branch called `development` in the target repository.
@@ -16,6 +16,7 @@ Prior to adding or editing content, all additions and changes must be approved a
 7. Once a pull request is reviewed and approved, merge the branch into the `base` branch where it will be incorporated into the site.
 
 ## Required Files
+The template repository already includes these files, which can be edited as necessary for a particular set of documentation.
 
 * `index.md`
 * `README.md`
@@ -46,7 +47,7 @@ Any institution or other’s work that we relied on in drafting our own document
 
 ### Readme
 
-Every GitHub repository requires a `README.md` file that includes information about what is in the repo, how to access and use the content, and defines documentation authorship. The README should be formatted in Markdown and include a link to docs.rockarch.org.
+Every GitHub repository requires a `README.md` file that includes information about what is in the repo, how to access and use the content, and defines documentation authorship. The README is formatted in Markdown and include a link to docs.rockarch.org.
 
 ### License
 
@@ -56,10 +57,13 @@ The template repository already includes the CC0 License, but if the content is 
 
 ###  \_config.yml
 
-Create a file called `_config.yml`. This configuration file includes whether the documentation will be public or private, title, associated tags, and pages information that is used to create the side navigation table of contents for each set of documentation. For guidance and an example of how to fill this out, see the ["Documentation Repository Configuration"](https://github.com/RockefellerArchiveCenter/docs-build#documentation-repository-configuration) section of the docs-build README.
+This configuration file includes:
+* Whether the documentation will be public or private. Designate this using `public: true` or `public: false`.
+* Documentation title. The title should match the title in `index.md`.
+* Associated tags
+* Pages information that is used to create the side navigation table of contents for each set of documentation.
 
-* The title in the config file should match the title in `index.md`, for example “Collection Policy” or “Guide to Processing Collections”.
-* Designate the documentation as private using `public: false` until it has been approved for public access by the Director of Archives and President.
+For guidance and an example of how to fill this out, see the ["Documentation Repository Configuration"](https://github.com/RockefellerArchiveCenter/docs-build#documentation-repository-configuration) section of the docs-build README.
 
 ### publish_sns.yml
 In order to deliver update notifications to Amazon SNS (which will trigger a build of the site), a [GitHub Actions](https://github.com/RockefellerArchiveCenter/docs-build#github-action-configuration) file named `publish_sns.yml` needs to be created in the `.github/workflows/` directory. The template repository already includes this file.
@@ -68,7 +72,7 @@ In order to deliver update notifications to Amazon SNS (which will trigger a bui
 
 More complicated documentation might be more appropriately split into multiple files, which will translate into a corresponding number of web pages. In deciding how to divide the documentation, structure and present the content in a way that enhances navigation and use.
 
-For example, in addition to an `index.md` file, the [Rockefeller Archive Center Guide to Processing Collections ](http://docs.rockarch.org/processing_manual/) includes two other Markdown files that represent two different pages on docs.rockarch.org: Planning and Processing. All files should be in the root directory (no subfolders). The exception is if there are images, which should be in a subfolder titled `img`.
+For example, in addition to an `index.md` file, the [Rockefeller Archive Center Guide to Processing Collections](http://docs.rockarch.org/processing_manual/) includes two other Markdown files that represent two different pages on docs.rockarch.org: Planning and Processing. All files should be in the root directory (no subfolders). The exception is if there are images, which should be in a subfolder titled `img`.
 
 Filenames should be short with no special characters or spaces. Use a hyphen between words instead of spaces. The filename will be part of the url of the site, so simple and concise are best.
 

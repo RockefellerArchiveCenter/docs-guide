@@ -21,7 +21,7 @@ To add and manage files in a GitHub repository, become familiar with the princip
 
 To work with GitHub:
 1. Create or have an existing GitHub account. [Sign up for GitHub](https://github.com/).
-2. Send the username to a member of the Digital Programs Team to add the new user as a member to the [RAC GitHub](https://github.com/RockefellerArchiveCenter) Organization.
+2. Send the username to a member of the Digital Strategies Team to add the new user as a member to the [RAC GitHub](https://github.com/RockefellerArchiveCenter) Organization.
 3. Work with GitHub in one of three ways: directly in the browser, locally using GitHub Desktop, or from the command line:
   * [Guide to using GitHub in the browser](https://pixelpioneers.co/blog/2017/using-github-without-the-command-line)
   * [Install GitHub Desktop](https://help.github.com/desktop/guides/getting-started-with-github-desktop/installing-github-desktop/) to work with GitHub from a user interface on a computer desktop.
