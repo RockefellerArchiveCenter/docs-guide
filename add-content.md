@@ -50,7 +50,7 @@ title:  "Guide to Processing Collections"
 ---
 ```
 
-**Note: the title of the page is the header 1. The headings in the Markdown should always start with heading level 2 (`##`). The level 2 headings will also be used to build the table of contents on the website so improve user navigation.**
+Note: the title of the page is the header 1. The headings in the Markdown files should always start with heading level 2 (##). The level 2 headings will be used to build the table of contents on the website so improve user navigation.
 
 #### Acknowledgements
 
@@ -105,5 +105,3 @@ In order to deliver update notifications to Amazon SNS (which will trigger a bui
 More complicated documentation might be more appropriately split into multiple files, which will translate into a corresponding number of web pages. In deciding how to divide the documentation, structure and present the content in a way that enhances navigation and use.
 
 For example, in addition to an `index.md` file, the [Rockefeller Archive Center Guide to Processing Collections](http://docs.rockarch.org/processing_manual/) includes two other Markdown files that represent two different pages on docs.rockarch.org: Planning and Processing. All files should be in the root directory (no subfolders). Filenames should be short with no special characters or spaces. Use a hyphen between words instead of spaces. The filename will be part of the url of the site, so simple and concise are best.
-
-

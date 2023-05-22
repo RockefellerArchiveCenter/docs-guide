@@ -14,10 +14,10 @@ To edit documentation that has already been added to GitHub and is on the websit
 
 Note: If a determination is made to either convert documentation from public to private, or to remove it completely, the Assistant Director for Digital Strategies or any other RAC employee with administrative access to the RAC GitHub account can be notified to enable this action.
 
-## Add images
+## Add Images
 Add image files to a subfolder in the GitHub repository titled `img`. Use Markdown syntax to include an image: `![image description](/repo-name/img/image-file-name.png)`.
 
-## Add internal links
+## Add Internal Links
 Add links between documents and sections using the format:
 
 `This is a link to [another section](#header-name) in the same document`
