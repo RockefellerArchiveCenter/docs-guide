@@ -7,7 +7,7 @@ title: "Documentation Site Guide | Edit Content"
 
 To edit documentation that has already been added to GitHub and is on the website, work in the `development` branch of the GitHub repository for that set of documentation.
 
-1. Commit changes with descriptive commit messages.
+1. Commit changes with descriptive commit messages that describe the changes instead of the default "update [file]" message provided in GitHub. For example, messages like "add config values," "fix typo," or "adjust heading levels" clearly communicate what has changed.
 2. Review the documentation on the [RAC development site](https://docs-internal.dev.rockarch.org/). A new commit to the `development` branch in GitHub will trigger the development site to update.
 3. To get content on the production site, submit a pull request to merge `development` to the `base` branch of the GitHub repo.
 4. Request review as necessary, and once approved, merge the `development` branch into the `base` branch. The merge action will trigger the production site to add the new documentation to [docs.rockarch.org](https://docs.rockarch.org) for public access, or [docs-internal.rockarch.org](https://docs-internal.rockarch.org) for internal-only access.
