@@ -36,7 +36,7 @@ The template repository already includes these files, which can be edited as nec
 
 ### index.md
 
-`index.md` is a Markdown file that contains the first (or only) page of the documentation. When the site is built, it uses Jekyll to convert the Markdown to HTML (see [Using Markdown](/docs-guide/using-markdown)). Add simple documentation like a short policy or one-page workflow to the GitHub repository as a single Markdown file named `index.md`. For multi-page documentation, see the [Multiple Documentation Files](#multiple-documentation-files) section below.
+`index.md` is a Markdown file that contains the first (or only) page of the documentation. Simple documentation like a short policy or one-page workflow should be added to this file. For multi-page documentation, see the [Multiple Documentation Files](#multiple-documentation-files) section below.
 
 #### Page Title and Layout
 
