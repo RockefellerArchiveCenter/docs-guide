@@ -5,7 +5,7 @@ title: "Documentation Site Guide to Managing Content"
 
 ## Purpose
 
-This is a guide to managing RAC documentation, including adding to a RAC GitHub repository, converting content to the Markdown format, and editing in Markdown. For the policy that defines the approval process by which documentation is selected, designated as internal or external, and added to docs.rockarch.org, refer to the [Rockefeller Archive Center Documentation Site Content Approval Policy](https://docs.rockarch.org/docs-policy/).
+This is a guide to managing RAC documentation, including step-by-step instructions for adding new content to GitHub and the [RAC Documentation Site](https://docs.rockarch.org/) and how to edit existing content that is already on the site. It also contains information about how to use GitHub and the Markdown format. For the policy that defines the approval process by which documentation is selected, designated as internal or external, and added to docs.rockarch.org, refer to the [RAC Documentation Site Content Approval Policy](https://docs.rockarch.org/docs-policy/).
 
 ## Platform Structural Overview
 
