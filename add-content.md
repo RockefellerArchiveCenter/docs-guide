@@ -73,9 +73,6 @@ The template repository already includes this configuration file, which should b
 
 ```
 public: true
-category: "collection development and management"
-tags:
-  - "policy"
 title: "Collection Policy"
 description: "The main collecting areas of the Rockefeller Archive Center."
 pages:
@@ -83,10 +80,6 @@ pages:
 ```
 
 `public` indicates whether or not the documentation should be public. Values should be either `public: true` or `public: false`.
-
-`categories` indicate what archival life cycle category(s) applies to the documentation. Categories enable filtering of documentation items on the homepage. Values should be `"collection development and management"`, `"preservation"`, `"arrangement and description"`, and/or `"reference and outreach"`.
-
-`tags` are used to describe what type of documentation the item is. Values should be either `"policy"` or `"workflow"`.
 
 `title` is the official title of the documentation, which will be displayed on the home page of the site.
 
